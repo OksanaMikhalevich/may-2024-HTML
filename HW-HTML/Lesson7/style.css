@@ -1,0 +1,131 @@
+/*---------------one section--------------*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.background-image{
+    height: 100vh;
+    background-image: url("Img/image5.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-container{
+    width: 1058.4px;
+    height: 392.8px;
+    background-color: #FAF9F7;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    display: flex;
+}
+.background-image div img{
+    width: 529px;
+    height: 393px;
+}
+.lorem-wrap{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 44px;
+}
+.lorem-wrap h3{
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: KoHo;
+    font-size: 45px;
+    font-weight: 400;
+}
+.lorem-wrap p{
+    font-family: KoHo;
+    font-size: 25px;
+    font-weight: 400;
+}
+button{
+    width: 409px;
+    height: 76px;
+    border-radius: 5px;
+    border: 1px solid rgba(156, 152, 152, 0.10);
+    background: rgba(217, 217, 217, 0.60);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    font-family: KoHo;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+/*--------------two section----------------*/
+.iframe{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.iframe iframe{
+    width: 949px;
+    height: 533px;
+    margin: 105px 282px;
+}
+.block-size{
+    width: 949px;
+    height: 183px;
+    margin-bottom: 87px;
+}
+.iframe p {
+    font-family: KoHo;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+/*-----------three section----------*/
+.section-card{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-container-card{
+    display: flex;
+    gap: 0 45px;
+}
+.style-card {
+    width: 453.6px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(83, 83, 83, 0.40);
+}
+.style-card img{
+    width: 408.6px;
+    height: 214px;
+    margin-top: 25px;
+}
+.style-card h3{
+    font-family: KoHo;
+    font-size: 35px;
+    font-weight: 400;
+    margin: 32px 0 24px 0;
+}
+.style-card p{
+    font-family: KoHo;
+    font-size: 35px;
+    font-weight: 400;
+}
+.margin{
+    margin: 62px 0 25px 0;
+}
+.style-card button{
+    width: 409px;
+    height: 76px;
+    border-radius: 5px;
+    border: 1px solid rgba(156, 152, 152, 0.10);
+    background: rgba(217, 217, 217, 0.60);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    color: #6B6666;
+    font-family: KoHo;
+    font-size: 35px;
+    font-weight: 400;
+}

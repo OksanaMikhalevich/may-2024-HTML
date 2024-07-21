@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible"
+          content="ie=edge">
+    <title>Lesson9</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        section{
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .logo{
+            width: 300px;
+            height: 90px;
+            margin: 40px 0;
+        }
+        .registration{
+            width: 40%;
+            height: 70%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        input[type="text"],
+        input[type="password"]{
+            width: 400px;
+            height: 40px;
+            background-color: #fbf9f9;
+            border-radius: 3px;
+            border: 1px solid grey;
+            margin-bottom: 10px;
+            padding-left: 10px;
+        }
+        button{
+            width: 400px;
+            height: 40px;
+            background-color: #00d0ff;
+            color: white;
+            font-size: 17px;
+            font-family: "Roboto", sans-serif;
+            font-weight: 400;
+            border: none;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+        p{
+            color: grey;
+            font-family: "Roboto", sans-serif;
+            font-weight: 400;
+            margin-top: 20px;
+        }
+        .facebook{
+            margin-top: 20px;
+        }
+        .facebook-logo{
+            width: 15px;
+            height: 15px;
+        }
+        a{
+            text-decoration: none;
+            color: darkblue;
+            font-family: "Roboto", sans-serif;
+            font-weight: 400;
+            margin-top: 20px;
+        }
+        .black{
+            color: black;
+        }
+    </style>
+</head>
+<body>
+<section>
+    <div class="registration">
+        <img src="Img/instagram-name-logo.webp"
+             alt="" class="logo">
+        <form>
+            <input type="text"
+                   name="login"
+                   placeholder="Номер телефону, ім'я користувача або email">
+            <input type="password"
+                   name="password"
+                   placeholder="Пароль">
+            <button><b>Увійти</b></button>
+            <p><b>АБО</b></p>
+            <div class="facebook">
+                <img src="Img/facebook.png"
+                     alt="" class="facebook-logo">
+                <a href="#"><b>Увійти через Facebook</b></a>
+            </div>
+            <a href="#">Забули пароль?</a>
+        </form>
+    </div>
+    <div>
+        <p class="black">Не маєте облікового запису? <a href="">Зареєструйтеся</a></p>
+    </div>
+</section>
+</body>
+</html>

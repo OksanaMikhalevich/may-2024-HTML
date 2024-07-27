@@ -116,11 +116,11 @@ section>p{
     }
     40%{
         opacity: 0;
-        transform: translateY(-80px);
+        transform: translateY(-50px) scale(1.1);
     }
     100%{
         opacity: 1;
-        transform: translateY(0);
+        transform: translateY(0) scale(1);
     }
 }
 @keyframes text {
@@ -129,10 +129,10 @@ section>p{
     }
     40%{
         opacity: 0;
-        transform: translateY(80px);
+        transform: translateY(50px) scale(1.1);
     }
     100%{
         opacity: 1;
-        transform: translateY(0);
+        transform: translateY(0) scale(1);
     }
 }

@@ -1,0 +1,175 @@
+@media screen and (max-width: 320px) {
+    /*------------------------SECTION 1-----------------------*/
+    header {
+        height: 60px;
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 30px;
+        margin-left: 10px;
+        padding-right: 73px;
+    }
+    header > div > ul > li > a {
+        display: none;
+    }
+    .house-dog {
+        flex-direction: column;
+    }
+    section > div {
+        justify-content: center;
+        align-items: center;
+    }
+    section > div > h2 {
+        width: 300px;
+        text-align: center;
+        font-size: 25px;
+        letter-spacing: 1.5px;
+        padding: 0 45px;
+    }
+    section > div > p {
+        width: 300px;
+        text-align: center;
+    }
+    section > img {
+        width: 260px;
+        height: 272px;
+        margin: 105px 10px 0 50px;
+    }
+
+    /*------------------------SECTION 2-----------------------*/
+    .about-the-shelter {
+        padding: 42px 0;
+    }
+    .about-the-shelter > div {
+        flex-direction: column-reverse;
+        gap: 42px;
+    }
+    .about-the-shelter > div > div {
+        justify-content: center;
+        align-items: center;
+    }
+    .about-the-shelter > div > div > h2 {
+        width: 300px;
+        text-align: center;
+        font-size: 25px;
+        letter-spacing: 1.5px;
+        padding: 0 35px;
+    }
+    .about-the-shelter > div > div > p {
+        width: 270px;
+        text-align: justify;
+    }
+    .about-the-shelter > div > img {
+        width: 260px;
+        height: 354px;
+    }
+
+    /*------------------------SECTION 3-----------------------*/
+    .dog-friends {
+        padding: 42px 0;
+    }
+    .dog-friends > div > div > h2 {
+        width: 300px;
+        font-size: 25px;
+        letter-spacing: 1.5px;
+    }
+    .card {
+        display: block;
+        width: 270px;
+        height: 435px;
+        overflow-x: scroll;
+        scroll-behavior: smooth;
+        margin-bottom: 30px;
+    }
+
+    /*--------------------SECTION 4---------------------------*/
+    .help-shelter {
+        padding: 42px 15px;
+    }
+    .help-shelter > div {
+        gap: 42px;
+    }
+    .help-shelter>div>div>h2{
+        font-size: 25px;
+        letter-spacing: 1.5px;
+    }
+    .help-shelter>div>div:last-child {
+        width: 290px;
+        height: 555px;
+        gap: 30px;
+    }
+    .icon{
+        justify-content: flex-start;
+    }
+    .icon>div{
+        gap: 20px;
+    }
+    .icon>div>img{
+        width: 50px;
+        height: 50px;
+    }
+    .icon>div>p{
+        width: 130px;
+        font-size: 15px;
+        line-height: 110%; /* 16.5px */
+        letter-spacing: 0.9px;
+    }
+
+/*--------------------SECTION 5---------------------------*/
+    .info-donation{
+        padding: 42px 0;
+    }
+    .info-donation>div{
+        flex-direction: column-reverse;
+        gap: 42px;
+    }
+    .info-donation>div>img{
+        width: 260px;
+        height: 135px;
+    }
+    .info-donation>div>div{
+        align-items: center;
+    }
+    .info-donation>div>div>div>h2{
+        text-align: center;
+        font-size: 25px;
+        letter-spacing: 1.5px;
+    }
+    .info-donation>div>div>p:first-of-type{
+        line-height: 160%;
+        letter-spacing: 0;
+    }
+    .info-donation>div>div>p:last-of-type{
+        width: 280px;
+        text-align: justify;
+    }
+    .info-donation>div>div>div>p{
+        font-size: 15px;
+        line-height: 110%; /* 16.5px */
+        letter-spacing: 0.9px;
+    }
+
+    /*--------------FOOTER-----------------------*/
+    footer{
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        padding: 30px 10px 0 10px;
+    }
+    footer>div{
+        align-items: center;
+        gap: 45px;
+        margin-top: 0;
+    }
+    footer>div>h2{
+        width: 280px;
+        text-align: center;
+        font-size: 25px;
+        letter-spacing: 1.5px;
+    }
+    footer>img{
+        width: 260px;
+        height: 269px;
+        margin-top: 5px;
+    }
+}
+
